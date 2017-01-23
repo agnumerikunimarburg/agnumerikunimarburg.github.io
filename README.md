@@ -2,7 +2,7 @@
 
 - Menüpunkte anlegen
 - Lokal arbeiten (erstmal nicht so wichtig)
-
+- lokal arbeiten mit Jekyll
 
 ## Welcome to GitHub Pages
 
