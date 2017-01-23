@@ -1,7 +1,7 @@
 ## To do's:
 
-Menüpunkte anlegen
-Lokal arbeiten (erstmal nicht so wichtig)
+- Menüpunkte anlegen
+- Lokal arbeiten (erstmal nicht so wichtig)
 
 
 ## Welcome to GitHub Pages
