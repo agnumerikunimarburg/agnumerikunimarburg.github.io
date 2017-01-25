@@ -4,6 +4,7 @@ published: true
 title: WML will relaunch soon
 date: '2017-01-25'
 subtitle: work in progress
+bigimg: /img/path.jpg
 ---
 ## WML is back
 
