@@ -24,6 +24,7 @@ description: Overview of the implementations of the DFG SPP 1324!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  News: "news"
   Code:
     - Marburg Software Library: "Marburg_Software_Library"
     - Tiny_Tools: "tiny_tools"
