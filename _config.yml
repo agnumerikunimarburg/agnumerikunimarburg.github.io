@@ -180,18 +180,12 @@ prose:
         field:
           element: "hidden"
           value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
       - name: "subtitle"
         field:
           element: "textarea"
           label: "Subtitle"
           placeholder: "A description of your post."
-          alterable: true    
+          alterable: true  
     _posts:
       - name: "layout"
         field:
