@@ -30,7 +30,7 @@ navbar-links:
   Other tools:
   - Waveletplots: "waveletplots"
   - Tillings: "tillings"
-  News: "news"
+  News: "/blog"
   Links: "links"
   Home: ""
 
