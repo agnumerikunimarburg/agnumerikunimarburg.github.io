@@ -188,7 +188,7 @@ prose:
           alterable: true
       - name: "subtitle"
         field:
-          element: "textarea"
+          element: "text"
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
@@ -205,7 +205,7 @@ prose:
           alterable: true
       - name: "subtitle"
         field:
-          element: "textarea"
+          element: "text"
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
