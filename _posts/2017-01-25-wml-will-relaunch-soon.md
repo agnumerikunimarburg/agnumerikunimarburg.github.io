@@ -6,8 +6,6 @@ date: '2017-01-25'
 subtitle: work in progress
 bigimg: /img/path.jpg
 ---
-## WML is back
-
 We are happy to anounce the relaunch of the Wavelet and Multiscale Library homepage.
 It will take place during the next weeks.
 
