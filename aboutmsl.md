@@ -1,6 +1,6 @@
 ---
 title: Marburg Software Library
-subtitle: about
+subtitle: About
 layout: page
 ---
 
