@@ -1,6 +1,8 @@
 ---
 layout: page
-title: MSL - How to use
+title: Marburg Software Library
+published: true
+subtitle: How to use
 ---
 
 This is a tutorial for working with MSL!
