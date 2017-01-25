@@ -43,10 +43,10 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Philipp Keding
-  email: "keding@mathematik.uni-marburg.de"
+  name: Ag Numerik Uni Marburg
+  email: "waveletsoft@mathematik.uni-marburg.de"
 #  facebook: yourname  # eg. daattali
-  github: kedingp    # eg. daattali
+  github: agnumerikunimarburg    # eg. daattali
 #  twitter: yourname   # eg. daattali
 #  reddit: yourname    # eg. daattali
 #  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
