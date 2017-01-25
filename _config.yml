@@ -175,28 +175,11 @@ prose:
     - /img
     - /js
   metadata:
-    '':
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
+    _posts:
       - name: "layout"
         field:
           element: "hidden"
           value: "post"
-     _posts:
       - name: "title"
         field:
           element: "text"
@@ -229,10 +212,6 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-
-
-gems:
-  - jekyll-paginate
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
