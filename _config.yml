@@ -1,3 +1,8 @@
+---
+layout: page
+title: ''
+published: false
+---
 # --- General options --- #
 
 # url is the full website URL
@@ -177,7 +182,7 @@ prose:
           value: "page"
       - name: "title"
         field:
-          element: "text"
+          element: "textarea"
           label: "Post title"
           placeholder: "Title"
           alterable: true
