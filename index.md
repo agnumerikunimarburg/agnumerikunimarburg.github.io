@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wavelet and Multiscale Library
-subtitle: C++ code for numerical analysts
+subtitle: Open source software numerical analysts
 use-site-title: true
 published: true
 ---
