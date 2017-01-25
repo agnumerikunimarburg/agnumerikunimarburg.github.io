@@ -205,6 +205,9 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+          
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 
 gems:
