@@ -192,12 +192,7 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
-    _posts:
+    _ posts:
       - name: "layout"
         field:
           element: "hidden" 
