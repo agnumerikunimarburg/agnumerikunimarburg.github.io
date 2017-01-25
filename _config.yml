@@ -182,30 +182,30 @@ prose:
           value: "page"
       - name: "title"
         field:
-          element: "textarea"
-          label: "Post title"
+          element: "text"
+          label: "title"
           placeholder: "Title"
           alterable: true
       - name: "subtitle"
         field:
-          element: "textarea"
+          element: "text"
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
-    _posts:
       - name: "layout"
         field:
           element: "hidden"
           value: "post"
+     _posts:
       - name: "title"
         field:
-          element: "text"
+          element: "textare"
           label: "Post title"
           placeholder: "Title"
           alterable: true
       - name: "subtitle"
         field:
-          element: "textarea"
+          element: "text"
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
