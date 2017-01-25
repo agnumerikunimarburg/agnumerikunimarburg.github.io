@@ -23,8 +23,8 @@ description: Overview of the implementations of the DFG SPP 1324!
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
-  Marburg Software Library: "Marburg_Software_Library"
+  Marburg Software Library: 
+  - About: "aboutmsl"
   - How to use: "howto"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
   Other tools:
@@ -32,6 +32,7 @@ navbar-links:
   - Tillings: "tillings"
   News: "news"
   Links: "links"
+  Home: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
