@@ -24,10 +24,13 @@ description: Overview of the implementations of the DFG SPP 1324!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Marburg Software Library: "Marburg_Software_Library"
+  - How to use: "howto"
+  - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
+  Other tools:
+  - Waveletplots: "waveletplots"
+  - Tillings: "tillings"
   News: "news"
-  Code:
-    - Marburg Software Library: "Marburg_Software_Library"
-    - Tiny_Tools: "tiny_tools"
   Links: "links"
 
 # Image to show in the navigation bar - image must be a square (width = height)
