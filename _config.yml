@@ -121,6 +121,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
@@ -206,8 +207,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+
 
 gems:
   - jekyll-paginate
