@@ -1,3 +1,8 @@
+---
+layout: page
+title: ''
+published: false
+---
 # --- General options --- #
 
 # url is the full website URL
@@ -26,6 +31,7 @@ navbar-links:
   Marburg Software Library: 
   - About: "aboutmsl"
   - How to use: "howtomsl"
+  - Theoretical background: "thbckgrmsl"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
   Other tools:
   - Waveletplots: "waveletplots"
