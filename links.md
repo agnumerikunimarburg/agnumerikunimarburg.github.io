@@ -10,5 +10,5 @@ Mathematical models of complex systems form the foundation for further technolog
 
 ### Participants
 <img style="float: right;" src="/img/JGU-Logo_farbe_high.png" height="80" width="228">
-_Johannes Gutenberg University Mainz_: [Jun.-Prof. Dr. Thorsten Raasch](https://www.numerik.mathematik.uni-mainz.de/prof-dr-thorsten-raasch/)  
+_Johannes Gutenberg University Mainz_: [Prof. Dr. Thorsten Raasch](https://www.numerik.mathematik.uni-mainz.de/prof-dr-thorsten-raasch/)  
 Major research topics of the numerics group in Mainz are: Adaptive wavelet schemes for operator equations, regularity theory for partial differential equations, construction of wavelets, wavelet quadrature formulas, frame theory and application to biological models.
