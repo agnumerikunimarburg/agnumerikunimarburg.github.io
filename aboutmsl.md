@@ -12,4 +12,4 @@ The MSL consists of the two branches master and experimental. We recommend to wo
 Inside the branches the MSL is divided into the different parts MathTL, WaveletTL, FrameTL and Examples (where FrameTL yet is missing in the master branch). The TL stands for template library indicating the template structure of the code. While MathTL contains some fundamental mathematical tools, one can find the implementations of wavelet bases on different domains and the adaptive schemes in WaveletTL. The folder FrameTL consists of algorithms based on wavelet frames.
 Every TL has a subfolder /tests and we recommend to compile the code and execute the files in this folders to get a good impression of how the code is working. In the Examples folder there are implemented versions of the algorithms in CDD1 and CDD2 on the unit interval. For the CDD1 algorithm on the unit interval there is also a graphical user interface (GUI) available. We hope to extend the GUI to more advanced problems in two dimensions. 
 
-If you want to try out the MSL you should read the part [How to use](howto).
+If you want to try out the MSL you should read the part [How to use](/howtomsl).
