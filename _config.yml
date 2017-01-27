@@ -29,6 +29,7 @@ navbar-links:
   - Theoretical background: "thbckgrmsl"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
   Other tools:
+  - Multiscale Library: "multilib"
   - Waveletplots: "waveletplots"
   - Tillings: "tillings"
   News: "blog"
