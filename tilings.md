@@ -1,5 +1,5 @@
 ---
-title:tilings
+title: Tilings
 ---
 
 
