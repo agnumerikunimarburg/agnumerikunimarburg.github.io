@@ -18,3 +18,6 @@ Major research topics of the numerics group in Mainz are: Adaptive wavelet schem
 _Philipps University Marburg_: [Prof. Dr. Stephan Dahlke](http://www.mathematik.uni-marburg.de/~dahlke/)  
 The main research topics of the numerical analysis group in Marburg are: Adaptive wavelet schemes for deterministic and stochastic operator equations, regularity theory for partial differential equations, construction of wavelets for general scalings, construction of (Banach) frames on manifolds, shearlet theory, coorbit theory, and mathematical modelling of microbiological systems.
 
+### Links to further resources
+www.github.com
+
