@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to useeee
+title: How to use
 published: true
 subtitle: Marburg Software Library
 ---
