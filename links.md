@@ -26,7 +26,8 @@ The main research topics of the numerical analysis group in Marburg are: Adaptiv
 [Github](www.github.com): _GitHub is a web-based Git or version control repository and Internet hosting service. The software of the WML is located there._  
 
 [Github tutorial](https://guides.github.com/introduction/getting-your-project-on-github/): _10 minute tutorial about github._  
-The NA Digest homepage: _NA Digest is a collection of articles on topics related to numerical analysis and those who practice it._
+
+[The NA Digest homepage](): _NA Digest is a collection of articles on topics related to numerical analysis and those who practice it._
 
 [The Netlib Repository](): _The Netlib Repository is a collection of mathematical software, papers, and databases._ 
 
