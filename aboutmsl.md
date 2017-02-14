@@ -5,7 +5,7 @@ subtitle: Marburg Software Library
 published: true
 ---
 
-The Marburg Software Library (**MSL**) is a collection of wavelet based c++ algorithms to solve multivariate partial differential equations on bounded domains. THe code realizes several different variants of adaptive wavelet algorithms, that are guaranteed to converge with optimal order. A theoretical background and a lot of additional information can, e.g, be found in "Quellen".
+The Marburg Software Library (**MSL**) is a collection of wavelet based c++ algorithms to solve multivariate partial differential equations on bounded domains. The code realizes several different variants of adaptive wavelet algorithms, that are guaranteed to converge with optimal order. A theoretical background and a lot of additional information can, e.g, be found in "Quellen".
 The project was founded in 2002 by Thorsten Raasch and Manuel Werner. Since then it was further developed by a whole bunch of PhD students and Postdocs of the AG Numerik Uni Marburg. From day one the MSL was planned as open source code directed at interested scholars as well as researchers. The aim of this project is twofold: on the one hand it may serve as a source for bachelor/master theses or a numerical practical course. On the other hand interested scientists can use it as a starting point for their own numerical research projects. 
 We encourage everyone to contribute to the MSL. Feel free to fork and clone the project and make pull requests if you have ideas for improvements and advancements of the existing code.
 
