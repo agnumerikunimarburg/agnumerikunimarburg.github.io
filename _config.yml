@@ -28,7 +28,7 @@ navbar-links:
   - How to use: "howtomsl"
   - Theoretical background: "thbckgrmsl"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
-  Other tools:
+  Additional tools:
   - Multiscale Library: "multilib"
   - Waveletplots: "waveletplots"
   - Tilings: "tilings"
