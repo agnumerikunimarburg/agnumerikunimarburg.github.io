@@ -6,4 +6,4 @@ subtitle: Marburg Software Library
 ---
 
 This is a tutorial for working with MSL!  
-[How to german](img/howto_msl.pdf)
+<a href= "img/howto_msl.pdf" target="_blank"> [How to german]</a>
