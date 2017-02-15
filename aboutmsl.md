@@ -14,5 +14,6 @@ Inside the branches, the MSL is divided into the different parts MathTL, Wavelet
 Every TL has a subfolder /tests and we recommend to compile the code and execute the files in this folders to get a good impression of how the code is working. In the Examples folder there are implemented versions of the algorithms in CDD1 and CDD2 on the unit interval. For the CDD1 algorithm on the unit interval there is also a graphical user interface (GUI) available. We will extend the GUI to more advanced problems in two dimensions in the near future.  
 More detailed information about the implemented algorithms can be found in the Readme file of the [project](https://github.com/agnumerikunimarburg/Marburg_Software_Library).
 
-If you want to try out the MSL you should read the part [How to use](/howtomsl).  
+If you want to try out the MSL you should read the <a href= "../img/howto_msl.pdf" target="blank_"> MSL Tutorial german</a>.
+  
 If you are interested in the theoretical background of adaptive numerical wavelet schemes, you can take a look <a href= "../img/theoback.pdf" target="blank_"> here</a>.
