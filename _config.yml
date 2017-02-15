@@ -25,7 +25,6 @@ description: Overview of the implementations of the DFG SPP 1324!
 navbar-links:
   Marburg Software Library: 
   - About: "aboutmsl"
-  - How to use: "howtomsl"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
   Additional tools:
   - Multiscale Library: "multilib"
