@@ -15,4 +15,4 @@ Every TL has a subfolder /tests and we recommend to compile the code and execute
 More detailed information about the implemented algorithms can be found in the Readme file of the [project](https://github.com/agnumerikunimarburg/Marburg_Software_Library).
 
 If you want to try out the MSL you should read the part [How to use](/howtomsl).  
-If you are interested in the theoretical background of adaptive numerical wavelet schemes, you can take a look [here](../includes/theoback.pdf).
+If you are interested in the theoretical background of adaptive numerical wavelet schemes, you can take a look [here](../img/theoback.pdf).
