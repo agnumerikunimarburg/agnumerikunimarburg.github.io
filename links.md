@@ -27,7 +27,7 @@ The main research topics of the numerical analysis group in Marburg are: Adaptiv
 
 [Github tutorial](https://guides.github.com/introduction/getting-your-project-on-github/): _10 minute tutorial about github._  
 
-[The NA Digest homepage](http://www.netlib.org/): _NA Digest is a collection of articles on topics related to numerical analysis and those who practice it._
+[The NA Digest homepage](http://www.netlib.org/na-digest-html/index.html): _NA Digest is a collection of articles on topics related to numerical analysis and those who practice it._
 
 [The Netlib Repository](http://www.netlib.org/): _The Netlib Repository is a collection of mathematical software, papers, and databases._ 
 
