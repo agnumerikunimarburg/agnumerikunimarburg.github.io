@@ -31,7 +31,7 @@ The main research topics of the numerical analysis group in Marburg are: Adaptiv
 
 [The Netlib Repository](http://www.netlib.org/): _The Netlib Repository is a collection of mathematical software, papers, and databases._ 
 
-[Numerical Recipes](http://www.nr.com/): _In partnership with Cambridge University Press, nr.com develops the Numerical Recipes series of books on scientific computing and related software products. They are one of the oldest continuously operating sites on the Web!_  
+[Numerical Recipes](http://www.numerical.recipes): _In partnership with Cambridge University Press, nr.com develops the Numerical Recipes series of books on scientific computing and related software products. They are one of the oldest continuously operating sites on the Web!_  
 
 [Wavelet.org](http://www.wavelet.org/): _This site offers several services intended to foster the exchange of knowledge and viewpoints related to theory and applications of wavelets._
 
