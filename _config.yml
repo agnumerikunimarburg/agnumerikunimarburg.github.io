@@ -26,7 +26,6 @@ navbar-links:
   Marburg Software Library: 
   - About: "aboutmsl"
   - How to use: "howtomsl"
-  - Theoretical background: "thbckgrmsl"
   - Project page: "https://github.com/agnumerikunimarburg/Marburg_Software_Library"
   Additional tools:
   - Multiscale Library: "multilib"
