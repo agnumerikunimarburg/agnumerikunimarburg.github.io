@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://agnumerikunimarburg.github.io"
+url: "http://wavelet-and-multiscale-library.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -45,10 +45,10 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: AG Numerik Uni Marburg
+  name: Wavelet and Multiscale Library
   email: "waveletsoft@mathematik.uni-marburg.de"
 #  facebook: yourname  # eg. daattali
-  github: agnumerikunimarburg    # eg. daattali
+  github: wavelet-and-multiscale-library    # eg. daattali
 #  twitter: yourname   # eg. daattali
 #  reddit: yourname    # eg. daattali
 #  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
