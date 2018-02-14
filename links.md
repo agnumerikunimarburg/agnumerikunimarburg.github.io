@@ -9,7 +9,7 @@ Mathematical models of complex systems form the foundation for further technolog
 
 
 ### Participants
-<img style="float: right;" src="/img/uni_logo_siegen.jpg" height="80" width="228">
+<img style="float: right;" src="/img/uni_logo_siegen.jpg" height="150" width="125">
 _University Siegen_: [Prof. Dr. Thorsten Raasch](https://www.uni-siegen.de/fb6/numerik/nmitarbeiter/raasch/?lang=de)  
 Major research topics of the numerics group in Mainz are: Adaptive wavelet and FEM schemes for operator equations, construction of wavelets, wavelet quadrature formulas, inverse problems, applications in engineering.
 
