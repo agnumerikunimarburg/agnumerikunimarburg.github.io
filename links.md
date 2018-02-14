@@ -11,12 +11,12 @@ Mathematical models of complex systems form the foundation for further technolog
 ### Participants
 <img style="float: right;" src="/img/logo_uni_siegen_rgb.jpg" height="64" width="225">
 _University Siegen_: [Prof. Dr. Thorsten Raasch](https://www.uni-siegen.de/fb6/numerik/nmitarbeiter/raasch/?lang=de)  
-Major research topics of the numerics group in Mainz are: Adaptive wavelet and FEM schemes for operator equations, construction of wavelets, wavelet quadrature formulas, inverse problems, applications in engineering.
+Major research topics of the numerics group in Siegen are: Adaptive wavelet and FEM schemes for operator equations, construction of wavelets, wavelet quadrature formulas, inverse problems, applications in engineering.
 
 
 <img style="float: left;" src="/img/uniMarburgLogo3.jpg" height="93" width="270">
 _Philipps University Marburg_: [Prof. Dr. Stephan Dahlke](http://www.mathematik.uni-marburg.de/~dahlke/)  
-The main research topics of the numerical analysis group in Marburg are: Adaptive wavelet schemes for deterministic and stochastic operator equations, regularity theory for partial differential equations, construction of wavelets for general scalings, construction of (Banach) frames on manifolds, shearlet theory, coorbit theory, and mathematical modelling of microbiological systems.
+The main research topics of the numerical analysis group in Marburg are: Adaptive wavelet and quarklet schemes for deterministic and stochastic operator equations, regularity theory for partial differential equations, construction of wavelets for general scalings, construction of (Banach) frames on manifolds, shearlet theory, coorbit theory, and mathematical modelling of microbiological systems.
 
 ### Links to further resources
 [Git tutorial](https://try.github.io/): _15 minute tutorial to learn the basics of the versioning control system (VCS) git._ 
