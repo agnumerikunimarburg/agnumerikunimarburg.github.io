@@ -25,7 +25,7 @@ description: Overview of the implementations of the DFG SPP 1324!
 navbar-links:
   Marburg Software Library: 
   - About: "aboutmsl"
-  - Project page: "https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library"
+  - Project page: "target=blank https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library"
   Additional tools:
   - Multiscale Library: "https://github.com/wavelet-and-multiscale-library/Multiscale_Library"
   - Waveletplots: "https://github.com/wavelet-and-multiscale-library/Waveletplots"
