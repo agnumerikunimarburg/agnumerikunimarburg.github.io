@@ -27,9 +27,9 @@ navbar-links:
   - About: "aboutmsl"
   - Project page: "https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library"
   Additional tools:
-  - Multiscale Library: "multilib"
-  - Waveletplots: "waveletplots"
-  - Tilings: "tilings"
+  - Multiscale Library: "https://github.com/wavelet-and-multiscale-library/Multiscale_Library"
+  - Waveletplots: "https://github.com/wavelet-and-multiscale-library/Waveletplots"
+  - Tilings: "https://github.com/wavelet-and-multiscale-library/Tilings"
   Links: "links"
 
 # Image to show in the navigation bar - image must be a square (width = height)
