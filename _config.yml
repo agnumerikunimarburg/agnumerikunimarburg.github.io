@@ -26,7 +26,8 @@ navbar-links:
   Marburg Software Library: 
   - About: "aboutmsl"
   #- Project page: "target=blank https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library"
-  - <a href="https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library" target="_blank">Project page</a>
+  [adjustable](http://google.com "Giiidd"){:target="_blank"}
+  #- <a href="https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library" target="_blank">Project page</a>
   Additional tools:
   - Multiscale Library: "https://github.com/wavelet-and-multiscale-library/Multiscale_Library"
   - Waveletplots: "https://github.com/wavelet-and-multiscale-library/Waveletplots"
