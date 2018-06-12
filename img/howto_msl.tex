@@ -1,0 +1,157 @@
+\documentclass[a4paper,11pt,german]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{ngerman,hyperref,setspace,typearea,alltt}
+\usepackage[T1]{fontenc} 
+
+\onehalfspacing
+
+\areaset[0cm]{16.5cm}{24cm}
+
+\newenvironment{bem}[1][Bemerkung]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+\title{Anleitung zum Arbeiten mit der Marburg Software Library}
+\author{Philipp Keding, \emph{keding@mathematik.uni-marburg.de}}
+\date{ }
+
+\setcounter{tocdepth}{1}
+\makeatletter
+\renewcommand\tableofcontents{%
+    \@starttoc{toc}% Kein Titel beim Inhaltsverzeichnis
+}
+\makeatother
+\begin{document}
+
+\maketitle
+
+Die \emph{Marburg Software Library} (kurz: \emph{MSL}) ist template-basierter \textsc{C++}--Quellcode zum Lösen von partiellen Differentialgleichungen auf Gebieten. Sie wurde von den damaligen Doktoranden der AG Numerik Thorsten Raasch und Manuel Werner ins Leben gerufen und seither
+von vielen Doktoranden der Arbeitsgruppe zum Zwecke numerischer Experimente verwendet und weiterentwickelt. Mittlerweile befindet sich die Software als Open Source online auf dem Github-Server (\url{www.github.com}).
+In dieser Anleitung wird beschrieben, wie man unter Verwendung des Versionsverwaltungssystems
+\emph{Git} Zugriff auf die \emph{Marburg Software Library} bekommt, um an ihr zu arbeiten und Änderungen an ihr durchzuführen. Hierbei wird davon ausgegangen, dass Ubuntu oder eine andere Linux-Distribution verwendet wird. 
+In diesem Tutorial erklären wir das Verwalten des Projekts über die Kommandozeile. Es sei aber darauf hingewiesen, dass auch andere Programme wie
+z. B. Netbeans, , welche eine komfortablere Programmierumgebung bieten, Schnittstellen zu Git anbieten
+\\
+Ein sehr gutes Online-Tutorial zu Git findet man hier: \url{https://git-scm.com/book/de/v1/}.
+
+\tableofcontents
+
+\section{Installation und Konfiguration von Git}
+
+Git ist ein sogenanntes distribuiertes Versionsverwaltungssystem. Dies erlaubt es dem Benutzer zunächst auf einem lokalen Repository (Aufbewahrungsort) Änderungen der Software durchzuführen und zu experimentieren, bevor er sie in das externe Repository (befindet sich auf Github)
+einspeist. Zum installieren verwendet man den Befehl
+
+\begin{verbatim}
+$ sudo apt-get install git
+\end{verbatim}
+in der Kommandozeile.\\
+Nach der Installation solltest du mit den Befehlen
+\begin{verbatim}
+$ git config --global user.name "[NAME]"
+$ git config --global user.email [EMAIL-ADRESSE]
+\end{verbatim}
+deinen Namen und deine E-Mail Adresse konfigurieren.
+Weitere nützliche Konfigurationen sind
+\begin{verbatim}
+$ git config --global core.editor [EDITOR]
+$ git config --global merge.tool [DIFF-PROGRAMM]
+\end{verbatim}
+zur Auswahl eines Editors (z.B.: nano) und eines Diff-Programms (z.B.: vimdiff), welches später benötigt wird, um Konflikte zu lösen, die während der Arbeit mit Git auftauchen können.
+Zum Überprüfen der Einstellungen verwende
+\begin{verbatim}
+$ git config --list
+\end{verbatim}
+\begin{bem}
+Um Hilfe in der Anwendung von Git zu erhalten, können die Befehle
+\begin{verbatim}
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+\end{verbatim}
+nützlich sein, wobei man \verb|<verb>| durch den Ausdruck, zu dem man Hilfe benötigt, ersetzt (z.B.: config).
+\end{bem}
+
+
+\section{Einbinden der Marburg Software Library}
+
+Die MSL befindet sich auf dem Github Server. Um darauf Zugriff zu erlangen, wechselt man in ein Verzeichnis seiner Wahl (z.B.:Desktop) und führt den Befehl
+\begin{verbatim}
+$ git clone https://github.com/wavelet-and-multiscale-library/Marburg_Software_Library.git
+\end{verbatim}
+aus.
+Dadurch wird ein Verzeichnis mit dem Namen \verb|Marburg_Software_Library| erstellt, in das der gesamte Inhalt des Repositorys auf dem Server hineinkopiert wird. Durch den clone-Befehl wurde die Quelle automatisch als Remote Repository (extern) mit dem Namen \verb|origin| abgespeichert.
+In Zukunft kann man nun mit dem Befehl
+\begin{verbatim}
+$ git pull origin
+\end{verbatim}
+lokal seine Daten mit den Daten des Remote Repository zusammenführen (mergen).
+Um die Installation der MSL abzuschließen, muss man lediglich noch die Umgebungsvariablen für die einzelnen Verzeichnisse richtig setzen.
+Hat man das Repository direkt in den Homeordner runtergeladen, trägt man dazu 
+\begin{verbatim}
+export MATHTL_DIR=$HOME/Marburg_Software_Library/MathTL
+export WAVELETTL_DIR=$HOME/Marburg_Software_Library/WaveletTL
+export FRAMETL_DIR=$HOME/Marburg_Software_Library/FrameTL
+\end{verbatim}
+in eine beliebige freie Zeile der Datei \verb|.bashrc| 
+(öffnen z.B. mit dem Befehl \verb|$ gedit ~/.bashrc|) ein. Liegt das Repository in einem anderen Ordner, muss man dies im oben Beschriebenen 
+entsprechend anpassen. Nachdem die Installation abgeschlossen ist, bietet es sich an einmal in dem Verzeichnis \verb|Marburg_Software_Library|
+den Befehl
+\begin{verbatim}
+$ make
+\end{verbatim}
+einzugeben. Dadurch werden alle Testdateien kompiliert und ausführbare Dateien erstellt, welche man durch Wechseln in das
+entsprechende \verb|test/|-Verzeichnis und Eingabe des Befehls
+\begin{verbatim}
+$ ./[Dateiname]
+\end{verbatim}
+ausführen kann.
+
+
+\section{Arbeiten im lokalen Repository}
+
+Git selbst unterscheidet zwischen drei Bereichen: Arbeitsverzeichnis, Staging Area und Repository.
+
+\begin{itemize}
+\item Das
+Arbeitsverzeichnis
+enthält den aktuellen Stand des Projektes und alle noch nicht erfassten Änderungen
+\item Die Staging Area
+beinhaltet alle Änderungen, die bei einem Commit (=Einbringen einer Aktualisierung in das Repository) einer neuen Version dem Repository hinzugefügt werden.
+\item Das
+Repository
+beinhaltet alle Versionen des Projektes. Diese werden samt aller Verwaltungsinformationen für das Repository im Ordner .git gespeichert.
+\end{itemize}
+Mit 
+\begin{verbatim}
+$ git status
+\end{verbatim}
+bekommt man angezeigt, welche Dateien seit dem letzten Commit neu dazugekommen sind oder modifiziert wurden. Möchte man diese nun dem lokalen Repository hinzufügen, stellt man sie zunächst mit
+\begin{verbatim}
+$ git add [DATEI]
+\end{verbatim} 
+in die Staging Area (\textbf{Wichtig !!! Nur .cpp und .h Dateien ins Repository hinzufügen}).
+Möchte man die Dateien in der Staging Area nun dem lokalen Repository hinzufügen, geht das mit dem Befehl
+\begin{verbatim}
+$ git commit
+\end{verbatim}
+Daraufhin öffnet sich der Editor. Hier sollte man den Commit so kommentieren, dass nachvollziehbar wird, was geändert wurde. Es bietet sich daher auch an, Änderungen, die zusammengehören, in Commits zu gruppieren und nicht direkt alle Änderungen zu comitten.
+
+\section{Änderungen auf externes Repositiory hochladen}
+Möchte man Änderungen auf das externe Repository packen, benötigt man zunächst einen Account auf \url{www.github.com}. Nachdem man sich angemeldet hat, bitte eine E-Mail an den Administrator des Projekts schreiben, mit der Bitte, in die Liste der Mitwirkenden aufgenommen zu werden.
+Den aktuellen Administrator findet man auf der Website im Bereich Marburg-Software-Library/About.
+Bevor man nun auf das externe Kompositorisch hochläd, sollte man zunächst mit
+\begin{verbatim}
+$ git pull origin
+\end{verbatim}
+lokal die Repositorys zusammenführen (falls jemand anderes auf das externe Repository zuvor hochgeladen hat). Gibt es hier Konflikte zwischen Dateiversionen müssen diese erst lokal gelöst werden (helfen kann hier ein Diff Programm). Danach aktualisiert man das lokale Repository. Ist es nun in dem Zustand, dass es hochgeladen werden kann (Bitte erst lokal schauen, ob auch alles kompiliert), macht man das mit dem Befehl
+\begin{verbatim}
+$ git push origin master
+\end{verbatim}
+und darauf folgender Eingabe von Benutzername und Passwort auf Github.
+Hier wurde nur ein kleiner Ausschnitt gezeigt von dem, was Git alles kann. Insbesondere wurde nicht auf eine der wohl nützlichsten Eigenschaften von Git, das Arbeiten mit Branches (Zweigen), eingegangen. Hier sei nochmal auf das Tutorial am Anfang hingewiesen.
+
+
+\end{document}
