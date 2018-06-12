@@ -17,3 +17,5 @@ More detailed information about the implemented algorithms can be found in the R
 If you want to try out the MSL you should read the <a href= "../img/howto_msl.pdf" target="blank_"> MSL Tutorial german</a>.
   
 If you are interested in the theoretical background of adaptive numerical wavelet schemes, you can take a look <a href= "../img/theoback.pdf" target="blank_"> here</a>.
+
+The current administrator for the MSL is Philipp Keding (keding[at]mathematik.uni-marburg.de).
